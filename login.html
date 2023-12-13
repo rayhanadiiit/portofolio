@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Rayhan login</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form onsubmit="login(); return false;">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="text" id="username" name="username" required>
+                        <label for="">Username</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" id="password" name="password"required>
+                        <label for="">Password</label>
+                    </div>
+                    <!--<div class="forget">
+                        <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
+                      
+                    </div>-->
+                    <button>Log in</button>
+                    <!--<div class="register">
+                        <p>Don't have a account <a href="#">Register</a></p>
+                    </div>-->
+                </form>
+            </div>
+        </div>
+    </section>
+    <script>
+        function login(){
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if(username === "rayhan" && password === "12345"){
+                window.location.href = "webprofil.html";
+            }
+            else{
+                alert("Login Failed");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(#ad1c1c,#582525,#000000);
+    background-image: url(img/aesthetic.jpg);
+    background-size: 1350px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+.profileImage {
+    width: 200px;
+    
+}
+
+.profile h2 {
+    color: aliceblue;
+}
+
+.profile h4 {
+    color: aliceblue;
+    transform: translateY(-10px);
+    font-size: medium;
+}
+
+.biodata {
+    background: linear-gradient(#824f99,#ffffffbe,#00000080);
+    padding-bottom: 350px;
+    padding-top: 100px;
+}
+
+.biodata .row .col-sm{
+    display: inline-block;
+    color: #fff;
+    background-color: #3498db;
+    padding: 10px; 
+    border: 2 px solid #ccc;
+    border-radius: 5px;
+}
+
+.biodata .col .btn{
+    background: #3498db;
+    border-color: #3498db;
+}
+
+.contact {
+    background-color: #00000080;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.contact .info h3 {
+    color: #fff;
+    padding-right: 1rem;
+    font-size: 1rem;
+}
+
+.watermark {
+    font-size: 15px;
+    padding-top: 30px;
+}
